@@ -32,6 +32,10 @@
 * cp CMMonitor ..
 * cd ..
 
+## setup - (No GUI)
+* Run `build.sh`
+* Go to the directory `/CMMonitor` and Change the *IP, Run_number, ch1, ch2, prescale, record-length(seconds)* in the `CMMonitorSettings.txt`
+* Run the binary (./CMMonitor)
 
 ## Running
 

@@ -1198,7 +1198,7 @@ Int_t RDataWindow::GetGraphBinRange(TGraph *gr ,Double_t min, Double_t max,
     if(max >= xph) *maxbin = gr->GetN()-1;
 
     if(minbin > maxbin || 
-       minbin < 0 || maxbin < 0) 
+       *minbin < 0 || *maxbin < 0)
       return DATA_PLOT_ERROR;
   }
   return PLOT_PROCESS_OK;
